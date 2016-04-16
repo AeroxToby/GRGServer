@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="grgserver.myapplication.MainActivityFragment">
+
+    <FrameLayout
+        android:id="@+id/framelayout"
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp">
+
+    <FrameLayout
+        android:id="@+id/framelayout01"
+        android:background="@color/colorWhite"
+        android:layout_width="320dp"
+        android:layout_height="330dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Impressum"
+            android:id="@+id/btimp"
+            android:layout_marginTop="25dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Support kontaktieren"
+            android:id="@+id/btsup"
+            android:layout_marginTop="65dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Anwendung empfehlen"
+            android:id="@+id/btae"
+            android:layout_marginTop="105dp"/>
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:text="Benachrichtigungen zulassen"
+            android:id="@+id/checkBox"
+            android:layout_marginTop="157dp"
+            android:layout_marginLeft="8dp"
+            android:checked="true"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="App Speicher leeren"
+            android:id="@+id/btasl"
+            android:layout_marginTop="257dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cache leeren"
+            android:id="@+id/btcache"
+            android:layout_marginTop="214dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Allgemeine Information"
+            android:id="@+id/textView3"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Benachrichtigungen"
+            android:id="@+id/textView4"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Cache"
+            android:id="@+id/textView5"
+            android:layout_marginTop="197dp"
+            android:layout_marginLeft="15dp"/>
+
+    </FrameLayout>
+
+    </FrameLayout>
+
+</RelativeLayout>
+

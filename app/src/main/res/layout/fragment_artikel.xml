@@ -1,0 +1,49 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="grgserver.myapplication.MainActivityFragment">
+
+    <LinearLayout
+        android:id="@+id/net_artikel"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/userinput"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/getservicedata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/serviceDataRecived"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""/>
+
+        <TextView
+            android:id="@+id/rawJsonData"
+            android:layout_height="fill_parent"
+            android:layout_width="wrap_content"
+            android:text="to recived json data from server click the Above button"/>
+
+        <TextView
+            android:id="@+id/parsedJSONData"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Following is the parsed JSON Data"/>
+
+        <TextView
+            android:id="@+id/showParsedJSON"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</ScrollView>
+

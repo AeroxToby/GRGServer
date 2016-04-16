@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GRGServer</string>
+    <string name="action_settings">Einstellungen</string>
+
+    <string name="drawer_open">Öffne Navigations Menü</string>
+    <string name="drawer_close">Schließe Navigations Menü</string>
+
+    <string name="contentdescription_grgserver">contentDescription=GRGServer</string>
+</resources>
